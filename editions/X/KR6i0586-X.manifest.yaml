@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6i0586/X/v1
+canonical_location: https://kanripo.org/bkk/KR6i0586/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 化珠保命真經
+  identifiers:
+    krp: KR6i0586
+    cbeta: X01n0025
+    cbeta_old_id: X01n0025
+    authorityid: CA0001468
+    json_key: X0025
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X01/X01n0025.xml
+    old_id: X01n0025
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0586_000-X.yaml, hash: 'sha256:47aa6d80497aacbe627143e086cf26180212fd66bc48a4aa4a89cbb5f505f0cb'}
+  - {seq: 1, filename: KR6i0586_001-X.yaml, hash: 'sha256:04c429890118d7ea846706ceb8b1c270e91b1b5dea5b73ca483d08520ce460e7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0586_000-X.markers.yaml, hash: 'sha256:20428c0b2203caf385d177c6d02103df32f3c6943d6d74da01a2e0efa33ab850'}
+  - {seq: 1, role: markers, filename: assets/KR6i0586_001-X.markers.yaml, hash: 'sha256:dac85603b9a894818b25d3aa98da1ab1ecf7438fe6d1950a6990cfd1db3913b2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6i0586_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 佛說化珠保命真經
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0586_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2199
+  label: 佛說化珠保命真經
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0586_X_001-mulu-1
+    span:
+    - body
+    - 984
+    - 984
+  label: No. 25-A 藥王菩薩化珠保命真經序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0586_X_001-mulu-2
+    span:
+    - body
+    - 1291
+    - 1291
+  label: No. 25-B
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0586_X_001-mulu-3
+    span:
+    - body
+    - 1584
+    - 1584
+  label: No. 25-C
+  type: mulu
+  level: 1
+hash: sha256:989a6e0cd9a61046535a1fdf6d9cd12027a7dfe4ac079dec175b0ca0e64f6e8e
